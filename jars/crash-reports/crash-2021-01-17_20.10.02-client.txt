@@ -1,0 +1,90 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 17/01/2021, 20:10
+Description: Updating screen events
+
+java.lang.Error: Unresolved compilation problem: 
+	The method onSendChatMessage(String) is undefined for the type Module
+
+	at poop.main.Poop.onSendChatMessage(Poop.java:68)
+	at net.minecraft.client.entity.EntityPlayerSP.sendChatMessage(EntityPlayerSP.java:300)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:485)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:475)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:625)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:576)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1777)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1104)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at poop.main.Poop.onSendChatMessage(Poop.java:68)
+	at net.minecraft.client.entity.EntityPlayerSP.sendChatMessage(EntityPlayerSP.java:300)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:485)
+	at net.minecraft.client.gui.GuiScreen.sendChatMessage(GuiScreen.java:475)
+	at net.minecraft.client.gui.GuiChat.keyTyped(GuiChat.java:133)
+	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:625)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:576)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiChat
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player875'/108, l='MpServer', x=599.79, y=71.00, z=437.40]]
+	Chunk stats: MultiplayerChunkCache: 612, 612
+	Level seed: 0
+	Level generator: ID 02 - largeBiomes, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 584.00,64.00,166.00 - World: (584,64,166), Chunk: (at 8,4,6 in 36,10; contains blocks 576,0,160 to 591,255,175), Region: (1,0; contains chunks 32,0 to 63,31, blocks 512,0,0 to 1023,255,511)
+	Level time: 5575 game time, 4955 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 32 total; [EntitySkeleton['Skeleton'/3852, l='MpServer', x=652.50, y=31.00, z=379.50], EntityZombie['Zombie'/4888, l='MpServer', x=562.50, y=46.00, z=452.50], EntityCreeper['Creeper'/4634, l='MpServer', x=580.50, y=17.00, z=485.50], EntityZombie['Zombie'/4635, l='MpServer', x=579.50, y=17.00, z=486.50], EntityPlayerSP['Player875'/108, l='MpServer', x=599.79, y=71.00, z=437.40], EntitySkeleton['Skeleton'/4132, l='MpServer', x=546.47, y=32.00, z=445.41], EntitySkeleton['Skeleton'/4133, l='MpServer', x=546.50, y=32.00, z=443.50], EntitySpider['Spider'/4134, l='MpServer', x=544.84, y=32.00, z=440.69], EntityCreeper['Creeper'/4175, l='MpServer', x=674.50, y=17.00, z=421.50], EntityZombie['Zombie'/4183, l='MpServer', x=601.47, y=16.00, z=437.13], EntityZombie['Zombie'/4184, l='MpServer', x=602.38, y=17.00, z=434.06], EntityCreeper['Creeper'/4962, l='MpServer', x=594.50, y=13.00, z=366.50], EntityCreeper['Creeper'/4963, l='MpServer', x=594.50, y=13.00, z=365.50], EntityCreeper['Creeper'/4964, l='MpServer', x=595.50, y=13.00, z=364.50], EntityItem['item.tile.gravel'/1383, l='MpServer', x=591.66, y=24.00, z=376.63], EntityItem['item.tile.gravel'/1384, l='MpServer', x=591.13, y=24.00, z=378.22], EntityItem['item.tile.gravel'/1385, l='MpServer', x=591.13, y=24.00, z=381.88], EntityMinecartChest['container.minecart'/1386, l='MpServer', x=592.50, y=24.06, z=378.50], EntityItem['item.tile.torch'/1387, l='MpServer', x=603.44, y=30.00, z=373.13], EntityItem['item.tile.gravel'/1388, l='MpServer', x=592.88, y=24.00, z=378.09], EntityPlayerSP['Player875'/108, l='MpServer', x=391.58, y=69.00, z=642.81], EntitySkeleton['Skeleton'/4761, l='MpServer', x=563.50, y=47.00, z=448.50], EntitySkeleton['Skeleton'/4508, l='MpServer', x=556.50, y=22.00, z=366.50], EntitySkeleton['Skeleton'/4509, l='MpServer', x=560.50, y=22.00, z=365.50], EntityBat['Bat'/3001, l='MpServer', x=658.91, y=35.00, z=358.78], EntityBat['Bat'/4801, l='MpServer', x=541.88, y=36.39, z=422.63], EntityBat['Bat'/4804, l='MpServer', x=542.38, y=36.01, z=425.41], EntityZombie['Zombie'/4044, l='MpServer', x=554.13, y=29.00, z=449.31], EntityItem['item.tile.torch'/1498, l='MpServer', x=635.22, y=35.00, z=404.13], EntityItem['item.tile.torch'/1499, l='MpServer', x=635.44, y=35.00, z=407.53], EntitySpider['Spider'/3582, l='MpServer', x=554.50, y=34.00, z=445.50], EntitySpider['Spider'/3583, l='MpServer', x=552.50, y=34.00, z=444.50]]
+	Retry entities: 0 total; []
+	Server brand: vanilla
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:380)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2751)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:443)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 15.0.1, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 260155160 bytes (248 MB) / 738197504 bytes (704 MB) up to 16106127360 bytes (15360 MB)
+	JVM Flags: 8 total; -Xmx15G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:+ShowCodeDetailsInExceptionMessages
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 99
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 457.51, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 6x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz

@@ -1,0 +1,12 @@
+package poop.mods;
+
+import poop.main.Category;
+
+public class Glide extends Module{
+
+	public Glide(String nm, int k, Category c) {
+		super(nm, k, c);
+		// TODO Auto-generated constructor stub
+	}
+
+}

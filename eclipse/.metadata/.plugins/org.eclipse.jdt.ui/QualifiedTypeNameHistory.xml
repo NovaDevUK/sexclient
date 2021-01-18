@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="poop.mods.Flight"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.ChatComponentText"/>
+    <fullyQualifiedTypeName name="poop.command.CommandManager"/>
+    <fullyQualifiedTypeName name="net.minecraft.network.play.server.S02PacketChat"/>
+    <fullyQualifiedTypeName name="poop.command.Command"/>
+    <fullyQualifiedTypeName name="poop.commands.Bind"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiIngame"/>
+    <fullyQualifiedTypeName name="poop.main.GuiIngameHook"/>
+    <fullyQualifiedTypeName name="net.java.games.input.Keyboard"/>
+    <fullyQualifiedTypeName name="net.minecraft.network.play.client.C03PacketPlayer"/>
+    <fullyQualifiedTypeName name="org.darkstorm.minecraft.gui.AbstractGuiManager"/>
+    <fullyQualifiedTypeName name="poop.main.Category"/>
+    <fullyQualifiedTypeName name="poop.gui.PoopGuiManager.ModuleFrame"/>
+    <fullyQualifiedTypeName name="org.darkstorm.minecraft.gui.layout.GridLayoutManager"/>
+    <fullyQualifiedTypeName name="org.darkstorm.minecraft.gui.layout.GridLayoutManager.HorizontalGridConstraint"/>
+    <fullyQualifiedTypeName name="poop.gui.PoopGuiManager"/>
+    <fullyQualifiedTypeName name="org.darkstorm.minecraft.gui.theme.simple.SimpleTheme"/>
+    <fullyQualifiedTypeName name="org.darkstorm.minecraft.gui.component.Frame"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+    <fullyQualifiedTypeName name="poop.gui.UIRender"/>
+    <fullyQualifiedTypeName name="org.darkstorm.minecraft.gui.util.GuiManagerDisplayScreen"/>
+    <fullyQualifiedTypeName name="poop.main.Poop"/>
+    <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.WorldRenderer"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+    <fullyQualifiedTypeName name="org.lwjgl.util.glu.Sphere"/>
+    <fullyQualifiedTypeName name="org.lwjgl.util.glu.Cylinder"/>
+    <fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+package poop.gui;
+
+public class UIRender {
+	
+	public static void renderAndUpdateFrames() {
+		for(Frame f: Poop.)
+	}
+
+}
